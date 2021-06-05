@@ -1,4 +1,6 @@
-# Workshop 
+#workshop
+
+## Este projeto foi originalmente desenvolvido pela [Jessica Milena](https://github.com/jeehmilena) 
 
 ### Título: Implementando autenticação e banco de dados utilizando Firebase na sua aplicação Android
 
