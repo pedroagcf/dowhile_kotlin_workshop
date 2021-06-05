@@ -72,8 +72,11 @@ dependencies {
     //Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
 
-    //TODO - Adicionar as dependencias necessárias do Firebase
-
+    //Firebase
+    implementation 'com.google.firebase:firebase-core:18.0.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.1'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
+    implementation 'com.google.firebase:firebase-database:19.5.1'
     /*#################################### TEST #########################################*/
     // MockWebserver
     androidTestImplementation "com.squareup.okhttp3:mockwebserver:4.2.2"
@@ -91,4 +94,6 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-contrib:3.4.0-alpha01"
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.7'
     testImplementation "com.google.truth:truth:1.0"
+
 }
+apply plugin: 'com.google.gms.google-services'
